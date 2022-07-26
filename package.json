@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gh-pages": "PUBLIC_URL=/ npm run build"
+    "gh-pages": "PUBLIC_URL=/bingo-app/ npm run build"
   },
   "eslintConfig": {
     "extends": [
