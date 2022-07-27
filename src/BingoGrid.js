@@ -7,6 +7,7 @@ const BingoGrid = ({ size = 5 }) => {
   const [gridCells, setGridCells] = useState(generateCells(size));
   const [activeCell, setActiveCell] = useState();
   const [isBingoFormed, setIsBingoFormed] = useState(false);
+  const [score, setScore] = useState(0);
 
   const handleClick = (clickedCell) => (_ => {
 
@@ -37,16 +38,20 @@ const BingoGrid = ({ size = 5 }) => {
         })
       })
 
+      setScore(score + 10);
       setIsBingoFormed(true);
       setTimeout(() => setIsBingoFormed(false), 6000);
 
     }
-  }, [gridCells, activeCell]);
+  }, [gridCells, activeCell, size, score]);
 
   const ifSelected = (cell) => cell.selected && cell.message !== CONF_CALL;
 
   return (
     <div className="relative">
+      <div className="flex justify-center">
+        <h1 className="text-xl font-semibold text-green-600 mb-8">Your Score: {score}</h1>
+      </div>
       <div className="w-full max-w-xl mx-auto transform -rotate-2 bg-white">
         <div className="grid grid-cols-5 border-t border-l border-gray-400">
           {gridCells.map(cell => (
