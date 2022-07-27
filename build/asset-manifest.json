@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bingo-app/static/css/main.1a9fd6dd.css",
-    "main.js": "/bingo-app/static/js/main.9629fefa.js",
-    "static/js/787.179b936f.chunk.js": "/bingo-app/static/js/787.179b936f.chunk.js",
-    "index.html": "/bingo-app/index.html",
-    "main.1a9fd6dd.css.map": "/bingo-app/static/css/main.1a9fd6dd.css.map",
-    "main.9629fefa.js.map": "/bingo-app/static/js/main.9629fefa.js.map",
-    "787.179b936f.chunk.js.map": "/bingo-app/static/js/787.179b936f.chunk.js.map"
+    "main.css": "/static/css/main.60ef31e6.css",
+    "main.js": "/static/js/main.a5c2c425.js",
+    "static/js/787.179b936f.chunk.js": "/static/js/787.179b936f.chunk.js",
+    "index.html": "/index.html",
+    "main.60ef31e6.css.map": "/static/css/main.60ef31e6.css.map",
+    "main.a5c2c425.js.map": "/static/js/main.a5c2c425.js.map",
+    "787.179b936f.chunk.js.map": "/static/js/787.179b936f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a9fd6dd.css",
-    "static/js/main.9629fefa.js"
+    "static/css/main.60ef31e6.css",
+    "static/js/main.a5c2c425.js"
   ]
 }
